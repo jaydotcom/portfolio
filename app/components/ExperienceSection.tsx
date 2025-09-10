@@ -1,22 +1,40 @@
 const ExperienceSection = () => {
 	const experiences = [
 		{
-			role: 'Senior Software Engineer',
-			company: 'Tech Corp',
-			period: '2020 - Present',
-			highlights: 'Led development of microservices architecture, 40% improvement in system performance',
+			role: 'Tech Lead & MVP Architect',
+			company: 'Solence',
+			period: 'Feb 2025 - Present',
+			highlights: 'Hands-on stabilization of healthtech platform. Built AI-driven features while securing non-dilutive funding',
 		},
 		{
-			role: 'Software Engineer',
-			company: 'Innovation Labs',
-			period: '2017 - 2020',
-			highlights: 'Architected cloud-native applications, mentored junior developers',
+			role: 'Tech Lead & Product Builder',
+			company: 'Oxygen Solutions',
+			period: 'Oct 2024 - Present',
+			highlights: 'Transformed legacy consulting firm into modern SaaS. Coded the MVP, built the team, shipped to production',
 		},
 		{
-			role: 'Full Stack Developer',
-			company: 'StartUp Inc',
-			period: '2015 - 2017',
-			highlights: 'Built scalable web applications using React and Node.js',
+			role: 'Tech Lead & Startup Advisor',
+			company: 'Coup de pousse',
+			period: 'Feb 2023 - Present',
+			highlights: 'From internal project to thousands of users. Built core features hands-on, then scaled the engineering team',
+		},
+		{
+			role: 'Co-founder & CTPO',
+			company: 'Eelway',
+			period: 'Oct 2015 - Jun 2020',
+			highlights: 'Scaled from 1 truck to international platform. Raised 2M€, partnerships with Accor, SNCF. Acquired by La Poste',
+		},
+		{
+			role: 'Senior Developer → Ad Tech Expert',
+			company: 'Pearltrees',
+			period: 'May 2012 - Jul 2015',
+			highlights: 'Led Flash→HTML5 migration, built full monetization infrastructure (freemium, ad stack, A/B testing)',
+		},
+		{
+			role: 'Database Software Engineer',
+			company: 'SunGard',
+			period: 'Jan 2008 - Aug 2009',
+			highlights: 'Built high-performance distributed systems. C/C++, Python, distributed Oracle. Complex data modeling & scalable architecture',
 		},
 	];
 

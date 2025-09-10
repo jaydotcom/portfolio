@@ -82,3 +82,4 @@ Key files to modify:
 3. **Accessibility**: Maintain semantic HTML and proper ARIA attributes
 4. **Responsive**: Test all changes across mobile, tablet, and desktop viewports
 5. **TypeScript**: Maintain type safety when adding new components or props
+6. **Language**: All content should be written in English
