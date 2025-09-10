@@ -31,7 +31,7 @@ const ExperienceSection = () => {
 			role: 'Co-founder & CTPO',
 			company: 'Eelway',
 			companyUrl: 'https://www.eelway.com/en',
-			period: 'Oct 2015 - Jun 2020',
+			period: 'Oct 2015 - Sep 2022',
 			highlights: 'Scaled from 1 truck to international platform. Raised 2M€, partnerships with Accor, SNCF. Acquired by La Poste',
 		},
 		{

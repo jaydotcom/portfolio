@@ -1,17 +1,26 @@
 const SkillsSection = () => {
 	const skills = [
 		{
-			category: 'Languages',
-			items: ['TypeScript', 'JavaScript', 'Python', 'Java', 'C/C++'],
+			category: 'Leadership & Strategy',
+			items: ['Team Building', 'Technical Roadmaps', 'Agile/Scrum', 'Stakeholder Management', '0→1 Product Development'],
 			icon: (
 				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
-					<path d="M8 3v3a2 2 0 01-2 2H3m18 0h-3a2 2 0 01-2-2V3M3 16v3a2 2 0 002 2h3m8-2h3a2 2 0 002-2v-3" />
+					<path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
 				</svg>
 			),
 		},
 		{
-			category: 'Backend & Data',
-			items: ['Node.js', 'Firebase', 'MySQL', 'Oracle', 'PostgreSQL'],
+			category: 'Startup Skills',
+			items: ['MVP Architecture', 'Rapid Prototyping', 'Tech Due Diligence', 'Budget Optimization', 'Fundraising Support'],
+			icon: (
+				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
+					<path d="M13 10V3L4 14h7v7l9-11h-7z" />
+				</svg>
+			),
+		},
+		{
+			category: 'Backend',
+			items: ['Node.js/NestJS', 'Python', 'Java/Spring', 'C#/.NET', 'PHP/Symfony', 'C/C++', 'SQL & NoSQL Databases'],
 			icon: (
 				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
 					<path d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" />
@@ -20,7 +29,7 @@ const SkillsSection = () => {
 		},
 		{
 			category: 'Frontend',
-			items: ['React', 'HTML5', 'LESS', 'Flutter', 'iOS'],
+			items: ['React', 'Angular', 'React Native', 'TypeScript', 'JavaScript', 'Flutter', 'Tailwind', 'Bootstrap'],
 			icon: (
 				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
 					<path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
@@ -28,8 +37,8 @@ const SkillsSection = () => {
 			),
 		},
 		{
-			category: 'DevOps & Tools',
-			items: ['Docker', 'Grunt', 'StatsD/Graphite', 'A/B Testing', 'RevenueCat'],
+			category: 'Cloud & DevOps',
+			items: ['AWS', 'GCP', 'Azure', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'Monitoring'],
 			icon: (
 				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
 					<path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />

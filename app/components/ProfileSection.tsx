@@ -51,6 +51,21 @@ const ProfileSection = () => {
 							</svg>
 						</a>
 					</div>
+
+					{/* Book a Call Button */}
+					<div className="pt-4">
+						<a 
+							href="https://calendly.com/alary-jul/60min" 
+							target="_blank" 
+							rel="noopener noreferrer" 
+							className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors text-sm font-medium"
+						>
+							<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+								<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+							</svg>
+							Book a Call
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
