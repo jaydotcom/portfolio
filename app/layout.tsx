@@ -16,6 +16,11 @@ export const metadata: Metadata = {
 	title: 'Julien Alary - Tech Lead & MVP Builder',
 	description:
 		'Serial entrepreneur and tech lead specializing in zero-to-one products. Scaled Eelway from 0 to 2M€. Expert in MVP development, tech team building, and rapid product iteration.',
+	icons: {
+		icon: '/favicon.svg',
+		shortcut: '/favicon.svg',
+		apple: '/favicon.svg',
+	},
 	keywords: [
 		'Software Developer',
 		'Web Developer',
