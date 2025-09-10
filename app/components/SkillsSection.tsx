@@ -2,7 +2,7 @@ const SkillsSection = () => {
 	const skills = [
 		{
 			category: 'Leadership & Strategy',
-			items: ['Team Building', 'Technical Roadmaps', 'Agile/Scrum', 'Stakeholder Management', '0→1 Product Development'],
+			items: ['Team Building', 'Technical Roadmaps', 'Agile/Scrum', '0→1 Product Development'],
 			icon: (
 				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
 					<path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
@@ -42,6 +42,15 @@ const SkillsSection = () => {
 			icon: (
 				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
 					<path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+				</svg>
+			),
+		},
+		{
+			category: 'AI & Automation',
+			items: ['AI Roadmaps', 'LLM Integration', 'Agent Development', 'AI-Assisted Coding', 'Pipeline Optimization', 'Prompt Engineering'],
+			icon: (
+				<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="#9DA2AF" strokeWidth="2">
+					<path d="M12 2a2 2 0 012 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 017 7h1a1 1 0 110 2h-1v1a7 7 0 01-7 7v1a2 2 0 11-4 0v-1a7 7 0 01-7-7v-1H2a1 1 0 110-2h1a7 7 0 017-7h1V5.73A2 2 0 0112 2zM7.05 14.95a5 5 0 109.9 0 5 5 0 00-9.9 0z" />
 				</svg>
 			),
 		},
